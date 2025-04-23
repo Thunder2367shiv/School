@@ -1,4 +1,4 @@
-import db from '../config/db.js';
+import db from '../Config/db.js';
 
 function haversine(lat1, lon1, lat2, lon2) {
   const toRad = x => (x * Math.PI) / 180;
